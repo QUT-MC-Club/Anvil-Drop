@@ -5,7 +5,8 @@
 	"name": "Anvil Drop",
 	"description": "An anvil avoidance minigame for Minecraft.",
 	"authors": [
-		"haykam821"
+		"haykam821",
+		"ZekeZ"
 	],
 	"contact": {
 		"homepage": "https://github.com/haykam821/Anvil-Drop#readme",
