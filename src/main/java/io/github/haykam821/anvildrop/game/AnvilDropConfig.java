@@ -17,7 +17,7 @@ public class AnvilDropConfig {
 			WaitingLobbyConfig.CODEC.fieldOf("players").forGetter(AnvilDropConfig::getPlayerConfig),
 			IntProvider.NON_NEGATIVE_CODEC.optionalFieldOf("ticks_until_close", ConstantIntProvider.create(SharedConstants.TICKS_PER_SECOND * 5)).forGetter(AnvilDropConfig::getTicksUntilClose),
 			Codec.INT.optionalFieldOf("delay", 20 * 2).forGetter(AnvilDropConfig::getDelay),
-			Codec.DOUBLE.optionalFieldOf("chance", 0.4).forGetter(AnvilDropConfig::getChance),
+			Codec.DOUBLE.optionalFieldOf("chance", 0.2).forGetter(AnvilDropConfig::getChance),
 			Codec.INT.optionalFieldOf("drop_height", 15).forGetter(AnvilDropConfig::getDropHeight),
 			Codec.INT.optionalFieldOf("stack_height", 0).forGetter(AnvilDropConfig::getStackHeight),
 			Codec.BOOL.optionalFieldOf("breaking", false).forGetter(AnvilDropConfig::isBreaking)
